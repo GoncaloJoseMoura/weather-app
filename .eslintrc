@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "wesbos"
+  ],
+  "rules": {
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true,
+      },
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto",
+        "tabWidth": 4,
+        "semi": true,
+        "printWidth": 120
+      },
+    ],
+  }
+}
