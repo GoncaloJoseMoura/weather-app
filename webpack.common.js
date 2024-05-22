@@ -12,7 +12,7 @@ module.exports = {
             filename: 'index.html',
             inject: 'head',
             scriptLoading: 'defer',
-            title: 'Production',
+            title: 'Weather',
         }),
     ],
     output: {

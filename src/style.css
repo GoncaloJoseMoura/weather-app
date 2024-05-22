@@ -1,0 +1,252 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/background/Greece.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    .title {
+        margin: 15vh;
+        width: 100%;
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        vertical-align: auto;
+
+        h3 {
+            margin: auto 0px;
+        }
+    }
+
+    form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 100px;
+        gap: 10px;
+
+        label {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        div {
+            height: 30px;
+            position: relative;
+
+            input {
+                height: 100%;
+                width: 100%;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                appearance: none;
+                outline: none;
+                color: white;
+                padding: 5px 15px;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+                position: absolute;
+                right: 10px;
+                padding: 5px 8px;
+                height: 100%;
+            }
+        }
+
+
+
+    }
+
+    .weather {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+        width: 70vw;
+        height: 25vh;
+
+        ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            li {
+
+                list-style: none;
+
+                h3 {
+                    font-size: 1.5rem;
+                    color: white;
+                    font-weight: 700;
+                    text-align: center;
+
+                    span {
+                        font-weight: 200;
+                        font-size: 1rem;
+                    }
+                }
+
+                img,
+                svg {
+                    height: 100px;
+                    width: auto;
+                }
+
+                p {
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
