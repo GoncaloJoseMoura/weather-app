@@ -10,7 +10,7 @@
 #### Step 2:  Building API Interaction Functions
 1. Write JavaScript functions that interact with a weather API.
 2. These functions should take a location as input and retrieve the corresponding weather data.
-3. For now, simply use console.log() to print the retrieved information.
+3. For now, simply use <code>console.log()</code> to print the retrieved information.
 
 #### Step 3: Processing API Data
 1. Write functions to process the JSON data received from the API.
@@ -20,7 +20,7 @@
 #### Step 4: User Input and Data Fetching
 1. Create an HTML form with an input field for users to enter their location.
 2. Implement functionality to trigger the weather data fetching process upon form submission.
-3. Again, utilize console.log() to display the fetched data initially.
+3. Again, utilize <code>console.log()</code> to display the fetched data initially.
 
 #### Step 5:: Displaying Weather Information
 1. Update your HTML structure to display the processed weather data in a user-friendly format.
