@@ -33,7 +33,7 @@ const API_KEY = 'fc0fbc8accc6479c8fb193345242105';
 const countries = {
     Australia,
     Brazil,
-    Dubai,
+    'United Arab Emirates': Dubai,
     France,
     Germany,
     Greece,
@@ -50,7 +50,7 @@ const countries = {
     Switzerland,
     Thailand,
     'United Kingdom': UnitedKingdom,
-    'United States': UnitedStates,
+    'United States of America': UnitedStates,
     Vietnam,
 };
 
